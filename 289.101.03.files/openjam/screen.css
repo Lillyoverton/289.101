@@ -80,7 +80,7 @@ body {
 
 #why {
     padding: 20px;
-    background-color: #b6ead3;
+    background-color: rgba(182,234,211,0.8);
     color: #378;
 }
 
@@ -96,4 +96,52 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+#where {
+    padding: 20px;
+    color: #bb4488;
+    background-image: url(img/map.gif);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center, left top;
+}
+
+#where h1 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#where p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align:right;
+    max-width: 800px;
+    padding-top: 20px;
+    padding-bottom: 400px;
+}
+
+#when {
+    padding: 20px;
+    background-image: url(img/wires.png);
+    background-color: rgba(67,153,152,0.8);
+    background-size: 800px, auto;
+    color: white;
+}
+
+#when h1 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;    
+}
+
+#why h2 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 
