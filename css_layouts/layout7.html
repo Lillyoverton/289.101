@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title> Layout 7 </title>   
+        <style>
+            div {
+                outline: 1px solid black;
+            }
+            #container {
+                width: 800px;
+                margin: auto;
+            }
+            #blue1 {
+                background-color: blue;
+                height: 80px;
+                display: grid;
+                grid-template-columns: 30% 70%;
+            }
+            .blue1yellow{
+                background-color: yellow;
+                margin: 20px;
+            }
+            #green1 {
+                background-color: lime;
+                height: 500px;
+            }
+            #red1 {
+                background-color: red;
+                height: 400px;
+                display: grid;
+            }
+            #red1top {
+                background-color: red;
+                display: grid;
+                height: 150px;
+            }
+            #red1yellowtop {
+                background-color: yellow;
+                margin: 20px;
+            }
+            #red1bottom {
+                background-color: red;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                height:250px
+            }
+            .red1yellowbottom {
+                background-color: yellow;
+                margin: 20px;
+            }
+            #blue2 {
+                background-color: blue;
+                height: 700px;
+            }
+            #green2 {
+                background-color: lime;
+                height: 600px;
+            }
+            #red2 {
+                background-color: red;
+                height: 500px;
+            }
+            #blue3 {
+                background-color: blue;
+                height: 80px;
+                display: grid;
+                grid-template-columns: ;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="blue1">
+                <div class="blue1yellow"></div>
+                <div class="blue1yellow"></div>
+            </div>
+            <div id="green1"></div>
+            <div id="red1">
+                <div id="red1top">
+                    <div id="red1yellowtop"></div>
+                </div>
+                <div id="red1bottom">
+                    <div class="red1yellowbottom"></div>
+                    <div class="red1yellowbottom"></div>
+                    <div class="red1yellowbottom"></div>
+                </div>
+            </div>
+            <div id="blue2"></div>
+            <div id="green2"></div>
+            <div id="red2"></div>
+            <div id="blue3"></div>
+            
+         </div>
+    </body>
+
+</html>

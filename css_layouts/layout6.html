@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title> Layout 6 </title>   
+        <style>
+            div {
+                outline: 1px solid black;
+            }
+            #container {
+                width: 800px;
+                margin: auto;
+            }
+            #blue {
+                background-color: blue;
+                height: 200px;
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+            #green {
+                background-color: lime;
+                height: 200px;
+            }
+            #red{
+                background-color: red;
+                height: 400px;
+                padding: 20px
+            }
+            #redtop {
+                background-color: red;
+                height: 200px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                padding: 
+            }
+            .yellowtop {
+                background-color: yellow;
+                margin: 20px;
+            }
+            #redbottom {
+                background-color: red;
+                height: 200px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding: 20
+            }
+            .yellowbottom {
+                background-color: yellow;
+                margin: 20px; 
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="blue"></div>
+            <div id="green"></div>
+            <div id="red">
+                <div id="redtop">
+                    <div class="yellowtop"></div>
+                    <div class="yellowtop"></div>
+                    <div class="yellowtop"></div>
+                    <div class="yellowtop"></div>
+                </div> 
+                <div id ="redbottom">
+                    <div class="yellowbottom"></div>
+                    <div class="yellowbottom"></div>
+                </div>
+            </div>    
+         </div>
+    </body>
+
+</html>
