@@ -35,17 +35,13 @@
                 display: grid;
                 height: 150px;
             }
-            #red1yellowtop {
-                background-color: yellow;
-                margin: 20px;
-            }
             #red1bottom {
                 background-color: red;
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 height:250px
             }
-            .red1yellowbottom {
+            .red1yellow {
                 background-color: yellow;
                 margin: 20px;
             }
@@ -56,6 +52,22 @@
             #green2 {
                 background-color: lime;
                 height: 600px;
+                display: grid;
+            }
+            #green2top {
+                background-color: lime;
+                display: grid;
+                height: 150px;
+            }
+            #green2bottom {
+                background-color: lime;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                height:440px
+            }
+            .green2yellow {
+                background-color: yellow;
+                margin: 20px;
             }
             #red2 {
                 background-color: red;
@@ -79,19 +91,27 @@
             <div id="green1"></div>
             <div id="red1">
                 <div id="red1top">
-                    <div id="red1yellowtop"></div>
+                    <div class="red1yellow"></div>
                 </div>
                 <div id="red1bottom">
-                    <div class="red1yellowbottom"></div>
-                    <div class="red1yellowbottom"></div>
-                    <div class="red1yellowbottom"></div>
+                    <div class="red1yellow"></div>
+                    <div class="red1yellow"></div>
+                    <div class="red1yellow"></div>
                 </div>
             </div>
             <div id="blue2"></div>
-            <div id="green2"></div>
+            <div id="green2">
+                <div id="green2top">
+                    <div class="green2yellow"></div>
+                </div>
+                <div id="green2bottom">
+                    <div class="green2yellow"></div>
+                    <div class="green2yellow"></div>
+                    <div class="green2yellow"></div>
+                </div>
+            </div>
             <div id="red2"></div>
             <div id="blue3"></div>
-            
          </div>
     </body>
 
