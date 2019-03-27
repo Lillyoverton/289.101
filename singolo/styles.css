@@ -56,11 +56,18 @@ body {
     width: 90%;
 }
 
+.services {
+    text-align: center;
+    height: 500px;
+    max-width: 780px;
+    width: 90%;
+}
+
+
+
+
 @media screen and (max-width: 480px) {
     
-body {
-    background-color: green;
-}
 .logo {
     margin-top: 20px;
     text-align: center;
