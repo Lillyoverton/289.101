@@ -57,12 +57,21 @@ body {
 }
 
 .services {
-    text-align: center;
+    margin: auto;
     height: 500px;
     max-width: 780px;
-    width: 90%;
+    width: 90%;   
 }
 
+.servicescontent {
+    color: #2d303a;
+    display: grid;
+}
+
+#ourservices {
+    font-size: 1.4rem;
+    margin-top: 20px
+}
 
 
 
