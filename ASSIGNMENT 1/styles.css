@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface)
+@import url(https://fonts.googleapis.com/css?family=Roboto)
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+    
+body {
+    background-color: #fbfffd;
+    margin: 0;
+}
+
+#header {
+    background-color: #2a363b;
+    height: 60px;
+    color: white;
+}
+
+.nav {
+    max-width: 950px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.logo{
+    grid-column: 3/4;
+    font-family: 'Abril Fatface';
+    font-size: 4rem;
+    line-height: 0.9
+    
+}
+
+.links{
+    text-decoration: none;  
+    color: white;
+    font-family: 'Roboto';
+    margin: 20px;
+}
+
+#about {
+    max-width: 950px;
+    height: 570px;
+    background-image: url(img/dog.jpg);
+    background-size: 500px, auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: grid;
+    margin: auto;
+    padding-left: 40px;
+    grid-template-rows: 32% 25% auto
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 28% auto;
+        margin-top: 90px;
+}
+
+#lilly {
+    font-family: "Abril Fatface";
+    font-size: 5.5rem;
+    color: #99b898;
+}
+
+#subtitle{
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: #2a363b;
+    text-align: left;
+    margin-top: 60px;
+    
+}
+#overton {
+    font-family: "Abril Fatface";
+    font-size: 5.5rem;
+    color: #99b898;
+    margin-left: 60px;
+}
+
+#description {
+    font-family: 'Roboto';
+    max-width: 400px;
+    color: #2a363b;
+}
+
