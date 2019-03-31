@@ -8,7 +8,7 @@ body {
 }
 
 #header {
-    background-color: #2a363b;
+    background-color: #ff847c;
     height: 60px;
     color: white;
 }
@@ -24,16 +24,18 @@ body {
 .logo{
     grid-column: 3/4;
     font-family: 'Abril Fatface';
-    font-size: 4rem;
-    line-height: 0.9
+    font-size: 5.2rem;
+    line-height: 0.65
     
 }
-
-.links{
-    text-decoration: none;  
-    color: white;
-    font-family: 'Roboto';
+.links {
     margin: 20px;
+}
+
+.links a {
+    font-family: 'Roboto';
+    color: white;
+    text-decoration: none;
 }
 
 #about {
@@ -80,5 +82,10 @@ body {
     font-family: 'Roboto';
     max-width: 400px;
     color: #2a363b;
+}
+
+#design {
+    height: 700px;
+    background-color: #2a363b ;
 }
 
