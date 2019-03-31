@@ -58,19 +58,57 @@ body {
 
 .services {
     margin: auto;
-    height: 500px;
-    max-width: 780px;
-    width: 90%;   
+    height:   500px;
+    max-width: 900px;
+    width: 90%; 
+    line-height: 1.6
 }
 
 .servicescontent {
-    color: #2d303a;
+    color: #666d89;
     display: grid;
 }
 
 #ourservices {
     font-size: 1.4rem;
-    margin-top: 20px
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-display: bold;
+}
+
+#description {
+    font-size: 0.90rem
+    
+}
+
+#list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.list_items {
+    display: grid;
+    grid-template-columns: 62px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list_items img {
+    max-width: 62px;
+        
+}
+
+.list_titles {
+    font-size: 0.90rem;
+    margin-left: 10px
+}
+
+.list_description {
+    grid-column: 2/3;
+    font-size: 0.70rem;
+    margin: 10px;
 }
 
 
@@ -87,5 +125,5 @@ body {
     margin-top: 10px;
     text-align: center;
 }
-    
+
 }
