@@ -9,12 +9,12 @@ body {
 
 #header {
     background-color: #ff847c;
-    height: 60px;
+    height: 70px;
     color: white;
 }
 
 .nav {
-    max-width: 950px;
+    max-width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -24,68 +24,102 @@ body {
 .logo{
     grid-column: 3/4;
     font-family: 'Abril Fatface';
-    font-size: 5.2rem;
+    font-size: 6.2rem;
     line-height: 0.65
     
 }
 .links {
-    margin: 20px;
+    margin: 25px;
 }
 
 .links a {
     font-family: 'Roboto';
     color: white;
     text-decoration: none;
+    font-size: 1.2rem
 }
 
 #about {
-    max-width: 950px;
-    height: 570px;
+    max-width: 900px;
+    height: 600px;
     background-image: url(img/dog.jpg);
-    background-size: 500px, auto;
+    background-size: 550px, auto;
     background-repeat: no-repeat;
     background-position: bottom right;
     display: grid;
     margin: auto;
     padding-left: 40px;
-    grid-template-rows: 32% 25% auto
+    grid-template-rows: 35% 25% auto
 }
 
 #container{
     display: grid;
-    grid-template-columns: 28% auto;
-        margin-top: 90px;
+    grid-template-columns: 25% auto;
+    margin-top: 100px;
 }
 
 #lilly {
     font-family: "Abril Fatface";
-    font-size: 5.5rem;
+    font-size: 6rem;
     color: #99b898;
+    grid-column: 1/2;
 }
 
 #subtitle{
     font-family: 'Roboto';
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #2a363b;
-    text-align: left;
     margin-top: 60px;
+    grid-column: 2/3;
+    text-align: left;
     
 }
 #overton {
     font-family: "Abril Fatface";
-    font-size: 5.5rem;
+    font-size: 6rem;
     color: #99b898;
-    margin-left: 60px;
+    margin-left: 70px;
 }
 
 #description {
     font-family: 'Roboto';
-    max-width: 400px;
+    max-width: 450px;
     color: #2a363b;
+    font-size: 1.1rem
 }
 
-#design {
+.designbackground {
     height: 700px;
     background-color: #2a363b ;
 }
+
+#designtop {
+    max-width: 1000px;
+    display: grid;
+    margin: auto;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title{
+    color: white;
+    font-family: "Abril Fatface";
+    font-size: 4rem;   
+    grid-column: 2/3;
+    padding-left: 20px;
+}
+
+.description {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+    grid-column: 2/3;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+
+
 
