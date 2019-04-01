@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Abril+Fatface)
-@import url(https://fonts.googleapis.com/css?family=Roboto)
-@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
     
 body {
     background-color: #fbfffd;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 #header {
@@ -23,7 +24,7 @@ body {
 
 .logo{
     grid-column: 3/4;
-    font-family: 'Abril Fatface';
+    font-family: 'Abril Fatface', cursive;
     font-size: 6.2rem;
     line-height: 0.65
     
@@ -33,7 +34,6 @@ body {
 }
 
 .links a {
-    font-family: 'Roboto';
     color: white;
     text-decoration: none;
     font-size: 1.2rem
@@ -66,7 +66,6 @@ body {
 }
 
 #subtitle{
-    font-family: 'Roboto';
     font-size: 1.1rem;
     color: #2a363b;
     margin-top: 60px;
@@ -82,10 +81,9 @@ body {
 }
 
 #description {
-    font-family: 'Roboto';
     max-width: 450px;
     color: #2a363b;
-    font-size: 1.1rem
+    font-size: 1.1rem;
 }
 
 .designbackground {
@@ -94,11 +92,9 @@ body {
 }
 
 #designtop {
-    max-width: 1000px;
+    max-width: 900px;
     display: grid;
     margin: auto;
-    padding-top: 40px;
-    display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -108,17 +104,53 @@ body {
     font-size: 4rem;   
     grid-column: 2/3;
     padding-left: 20px;
+    padding-top: 20px
 }
 
 .description {
     color: white;
-    font-family: 'Roboto';
     font-size: 1.1rem;
     grid-column: 2/3;
     padding-top: 20px;
     padding-left: 20px;
+    max-width: 400px;
 }
 
+#designtop img {
+    grid-column: 1/2;
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+#designbottom {
+    max-width: 800px;
+    display: grid;
+    margin: auto;
+    padding-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#designbottom img{
+    width: 200px;
+    margin: auto;
+}
+
+@media screen and (max-width:700px) {
+    
+    .logo{
+        font-size: 3.2rem;
+    }
+    
+    #subtitle{
+        text-align: center;
+    }
+    
+    #designtop {
+        grid-template-columns: auto;
+    }
+}
 
 
 
