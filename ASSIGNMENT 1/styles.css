@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
-    
+html{
+    scroll-behaviour: smooth;
+}    
 body {
     background-color: #fbfffd;
     margin: 0;
@@ -12,6 +14,7 @@ body {
     background-color: #ff847c;
     height: 70px;
     color: white;
+    <position: fixed>
 }
 
 .nav {
@@ -86,16 +89,17 @@ body {
     font-size: 1.1rem;
 }
 
-.designbackground {
-    height: 700px;
+.designsection {
+    height: 650px;
     background-color: #2a363b ;
 }
 
 #designtop {
-    max-width: 900px;
+    max-width: 840px;
     display: grid;
     margin: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 45% auto;
+    padding-top: 15px
 }
 
 .title{
@@ -103,17 +107,21 @@ body {
     font-family: "Abril Fatface";
     font-size: 4rem;   
     grid-column: 2/3;
+    padding-top: 40px;
     padding-left: 20px;
-    padding-top: 20px
 }
 
 .description {
     color: white;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     grid-column: 2/3;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 0px;
     max-width: 400px;
+    padding-left: 20px;
+}
+
+.description h1{
+    font-size: 1.1rem
 }
 
 #designtop img {
@@ -128,13 +136,31 @@ body {
     display: grid;
     margin: auto;
     padding-top: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+    grid-template-columns: 1fr 1fr 1fr;   
 }
 
+#designsection2 {
+    height: 600px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #designbottom img{
-    width: 200px;
+    width: 210px;
     margin: auto;
+    padding-left: 35px;
 }
 
 @media screen and (max-width:700px) {
