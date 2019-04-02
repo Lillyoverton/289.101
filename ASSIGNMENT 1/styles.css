@@ -99,10 +99,10 @@ body {
     display: grid;
     margin: auto;
     grid-template-columns: 45% auto;
-    padding-top: 15px
+    padding-top: 10px
 }
 
-.title{
+.title {
     color: white;
     font-family: "Abril Fatface";
     font-size: 4rem;   
@@ -140,28 +140,88 @@ body {
 }
 
 #designsection2 {
-    height: 600px;    
+    height: 550px;    
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #designbottom img{
-    width: 210px;
+    height:300px;
     margin: auto;
     padding-left: 35px;
 }
+
+#logotop {
+    max-width: 800px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 50% auto;
+    padding-top: 20px
+}
+
+#logodescription h1 {
+    padding-top: 30px;
+    font-size: 1.1rem;
+}
+
+#logo1 {
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+#logobottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 800px;
+    margin: auto;
+    padding-top: 20px;
+} 
+
+#logobottom img {
+    padding: 20px;
+    height: 130px
+}
+
+#artsection {
+    height: 650px;
+    background-color: #a1c2a0;
+}
+
+#arttop {
+    max-width: 840px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 30% auto;
+    padding-left: 40px
+}
+
+#arttop img {
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 35px
+}
+
+#arttop .title {
+    padding-top: 70px;
+}
+
+#artbottom {
+    max-width: 800px;
+    display: grid;
+    margin: auto;
+    padding-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+
+#artbottom img {
+    margin: auto;
+    height:300px;
+    padding-left: 20px
+}
+
+
+
+
+
+
 
 @media screen and (max-width:700px) {
     
