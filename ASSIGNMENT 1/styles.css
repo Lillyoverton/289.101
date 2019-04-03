@@ -217,6 +217,46 @@ body {
     padding-left: 20px
 }
 
+#fashionsection {
+    height: 700px
+}
+
+#fashiontop {
+    max-width: 800px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 55% auto;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+#fashiontop .title {
+    color: #ff847c;
+}
+
+#fashiontop .description {
+    color: #ff847c;
+}
+
+#fashiontop img {
+   height: 300px;
+    padding-top: 40px
+    
+}
+
+#fashionbottom {
+    max-width: 800px;
+    display: grid;
+    padding-top: 40px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+
+#fashionbottom img {
+    height: 300px
+        
+}
 
 
 
