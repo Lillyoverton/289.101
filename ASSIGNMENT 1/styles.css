@@ -10,6 +10,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+            .selected {
+                color:red;
+                font-weight:bold;
+            }
+
+
 #header {
     background-color: #ff847c;
     height: 70px;
@@ -29,10 +36,11 @@ body {
 .logo{
     grid-column: 3/4;
     font-family: 'Abril Fatface', cursive;
-    font-size: 6.2rem;
-    line-height: 0.65
+    font-size: 5rem;
+    line-height: 0.85
     
 }
+
 .links {
     margin: 25px;
 }
@@ -137,7 +145,7 @@ body {
     display: grid;
     margin: auto;
     padding-top: 50px;
-    grid-template-columns: 1fr 1fr 1fr;   
+    grid-template-columns: 32% auto auto;   
 }
 
 #designsection2 {
@@ -147,7 +155,7 @@ body {
 #designbottom img{
     height:300px;
     margin: auto;
-    padding-left: 35px;
+    padding-left: 30px;
 }
 
 #logotop {
@@ -279,13 +287,60 @@ body {
 }
 #section2left img {
     width: 250px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 #section2right img {
     padding-top: 40px;
-    padding-right: 50px;
 }
+
+#bottomimages img {
+    height: 225px;
+    padding-right: 40px;
+    
+}
+
+#footer {
+    background-color: #ff847c;
+    height: 80px;
+    width: 100%;  
+    margin: auto;
+}
+
+#icons {
+    display: grid;
+    grid-template-columns: 10% 10% auto;
+    max-width: 900px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#footer img {
+    width: 65px;
+    margin: auto;
+}
+
+
+#email { 
+    color: white;
+    font-size: 1.4rem;
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+a {
+    font-weight: normal;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+
+
 
 
 
@@ -305,35 +360,5 @@ body {
     }
 }
 
-#footer {
-    background-color: #ff847c;
-    height: 80px;
-    width: 100%;  
-    margin: auto;
-}
-
-#icons {
-    display: grid;
-    grid-template-columns: 10% 10% auto;
-    max-width: 900px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: auto;
-    padding-bottom: 20px;
-    
-    
-}
-
-#footer img {
-    width: 65px;
-    margin: auto;
-}
 
 
-#email {
-    color: white;
-    font-size: 1.4rem;
-    text-align: right;
-    padding: 15px;
-    margin-right: 20px;
-}
