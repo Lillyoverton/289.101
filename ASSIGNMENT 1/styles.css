@@ -14,7 +14,8 @@ body {
     background-color: #ff847c;
     height: 70px;
     color: white;
-    <position: fixed>
+    position: fixed;
+    width: 100%   
 }
 
 .nav {
@@ -44,7 +45,7 @@ body {
 
 #about {
     max-width: 900px;
-    height: 600px;
+    height: 650px;
     background-image: url(img/dog.jpg);
     background-size: 550px, auto;
     background-repeat: no-repeat;
@@ -52,13 +53,13 @@ body {
     display: grid;
     margin: auto;
     padding-left: 40px;
-    grid-template-rows: 35% 25% auto
+    grid-template-rows: 40% 24% auto
 }
 
 #container{
     display: grid;
     grid-template-columns: 25% auto;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #lilly {
@@ -218,29 +219,29 @@ body {
 }
 
 #fashionsection {
-    height: 700px
+    height: 730px;
 }
 
 #fashiontop {
     max-width: 800px;
     display: grid;
     margin: auto;
-    grid-template-columns: 55% auto;
+    grid-template-columns: 60% auto;
     padding-left: 40px;
-    padding-top: 10px;
     padding-right: 40px;
 }
 
 #fashiontop .title {
+    padding-top: 70px;
     color: #ff847c;
 }
 
 #fashiontop .description {
-    color: #ff847c;
+    color: #2a363b;
 }
 
 #fashiontop img {
-   height: 300px;
+    height: 300px;
     padding-top: 40px
     
 }
@@ -254,11 +255,37 @@ body {
 }
 
 #fashionbottom img {
-    height: 300px
-        
+    height: 300px;
 }
 
+#fashionsection2 {
+    height: 650px;
+    background-color: #2a363b;
 
+}
+
+#section2container {
+    display: grid;
+    grid-template-columns: 35% auto;
+    padding-left: 60px;
+    padding-top: 10px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#section2left .description{
+    padding-top: 60px;
+    padding-right: 40px;
+}
+#section2left img {
+    width: 250px;
+    padding-top: 30px;
+}
+
+#section2right img {
+    padding-top: 40px;
+    padding-right: 50px;
+}
 
 
 
@@ -278,6 +305,23 @@ body {
     }
 }
 
+#footer {
+    background-color: #ff847c;
+    height: 80px;
+    width: 100%;  
+    margin: auto;
+}
 
+#icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 300px;
+    margin: auto;
+    padding: 10px
+    
+}
 
-
+#footer img {
+    width: 65px;
+    margin: auto;
+}
