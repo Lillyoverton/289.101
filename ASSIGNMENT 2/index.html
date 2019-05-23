@@ -11,6 +11,7 @@
             
             .header {
                 background-color: #471d74;
+                margin: auto;
                 text-align: center;
                 height: 60px;
                 color: white;    
@@ -32,10 +33,16 @@
             
             .header img{
                 height: 50px;
+                margin: auto;
             }
             
             .banner {
             }
+            
+            .banner img {
+                height: 300px;
+            }
+
             
             /* sm */
             @media (min-width: 576px) {
@@ -52,10 +59,9 @@
             
             /* lg */
             @media (min-width: 992px) {
-                                a {
+                a {
                     margin-right: 80px;
-                }
-                
+                }               
             }
             
             /* xl */
@@ -84,7 +90,7 @@
             </div>
             
             <div class="row">
-               <div id="carouselbanner" class="carousel slide" data-ride="carousel">
+               <div id="carouselbanner" class="carousel slide d-lg-none" data-ride="carousel">
                   <ol class="carousel-indicators">
                     <li data-target="#carouselbanner" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselbanner" data-slide-to="1"></li>
@@ -111,6 +117,19 @@
                   </a>
                 </div>
             </div>
+            
+            <div class="row no-gutters">     
+                <div class="d-none d-lg-block col-4">
+                    <div class="banner"><img src="img/banner1.png"></div>
+                </div>
+                <div class="d-none d-lg-block col-4">
+                    <div class="banner"><img src="img/banner2.png"></div>
+                </div>
+                <div class="d-none d-lg-block col-4">
+                    <div class="banner"><img src="img/banner3.png"></div>
+                </div>
+            </div>
+        
         
         </div>
     
