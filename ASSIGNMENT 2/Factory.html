@@ -7,8 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="css/bootstrap.min.css" />     
         <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
-        <style>
-            
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+        <style>  
             .header {
                 background-color: #471d74;
                 margin: auto;
@@ -26,14 +29,7 @@
             a:hover {
                 color: white;  
             }
-            
-            .container {
-            background-image: url(img/background.jpg);
-            margin: auto;
-            background-size: cover;
-            
-                
-            }
+
             .selected {
                 font-weight: bold;
             }
@@ -48,9 +44,25 @@
                 color: #471d74;
                 text-align: center;
                 padding-top: 20px;
+                padding-bottom: 10px;
                 font-size: 55px;
             }
-
+            
+            .factory {
+                padding: 20px;
+                padding-bottom: 20px;
+            }
+            
+            .factoryimages {
+                padding: 10px;
+                background-color: #ede1f8;
+                width: 400px;
+                margin: auto;
+            }
+            
+            .factoryimages a {
+                padding: 10px
+            }
             
             /* sm */
             @media (min-width: 576px) {
@@ -70,6 +82,15 @@
                 a {
                     margin-right: 80px;
                 }
+                .factoryimages {
+                    width: 900px
+                }
+                .factoryimages a {
+                    margin: auto
+                }
+                .factoryimages img {
+                    width:270px;
+                }
             }
             
             /* xl */
@@ -77,6 +98,15 @@
                 a {
                     margin-right: 100px;
                 } 
+                .factoryimages {
+                    width: 1000px
+                }
+                .factoryimages a {
+                    margin: auto
+                }
+                .factoryimages img {
+                    width:300px;
+                }
             }
                 
         </style>
@@ -89,11 +119,48 @@
             <div class="row">
                 <div class="header col-12"> 
                     <a class="col-4"><img src="img/logo.png"></a>
-                    <a class="selected col-2">Home/About</a>
+                    <a class="col-2" href="index.html">Home/About</a>
                     <a class="col-2" href="Products.html">Products</a>
-                    <a class="col-2" href="Factory.html">Factory</a>
+                    <a class="selected col-2">Factory</a>
                     <a class="col-2" href="Tickets.html">Golden Tickets</a>
                 </div>  
+            </div>
+            
+            <div class="content">
+                <div class="factory row">
+                    <div class="title col-12">Inside our Factory</div>
+                    <div class="description">The amazing factory where our delicious chcocolate treats are made is the largest candy factory in the world. We’ve put together a gallery of some of the best bits:</div>
+                </div>
+
+                <div class="factoryimages row">
+                    <a class="col-12 col-lg-4" data-fancybox="gallery" href="img/thumbnail1.jpg">
+                    <img src="img/thumbnail1.jpg"/>
+                    </a>
+                    <a class="col-12 col-lg-4" data-fancybox="gallery" href="img/thumbnail2.jpg">
+                    <img src="img/thumbnail2.jpg"/>
+                    </a>
+                    <a class="col-12 col-lg-4" data-fancybox="gallery" href="img/thumbnail3.jpg">
+                    <img src="img/thumbnail3.jpg"/>
+                    </a>
+                    <a class="col-12 col-lg-4" data-fancybox="gallery" href="img/thumbnail4.jpg">
+                    <img src="img/thumbnail4.jpg"/>
+                    </a>
+                    <a class="col-12 col-lg-4" data-fancybox="gallery" href="img/thumbnail5.jpg">
+                    <img src="img/thumbnail5.jpg"/>
+                    </a>
+                    <a class="col-12 col-lg-4" data-fancybox="gallery" href="img/thumbnail6.jpg">
+                    <img src="img/thumbnail6.jpg"/>
+                    </a>
+                    <a class="col-12 col-lg-4" data-fancybox="gallery" href="mg/thumbnail7.jpg">
+                    <img src="img/thumbnail7.jpg"/>
+                    </a>
+                    <a class="col-12 col-lg-4" data-fancybox="gallery" href="img/thumbnail8.jpg">
+                    <img src="img/thumbnail8.jpg"/>
+                    </a>
+                    <a class="col-12 col-lg-4" data-fancybox="gallery" href="img/thumbnail9.jpg">
+                    <img src="img/thumbnail9.jpg"/>
+                    </a>
+                </div>    
             </div>
             
         </div>
