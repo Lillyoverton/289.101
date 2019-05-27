@@ -1,6 +1,136 @@
 <!DOCTYPE html>
 
 <html>
+<head>  
+        <title></title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />     
+        <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+        <style>
+            
+            .header {
+                background-color: #471d74;
+                margin: auto;
+                text-align: center;
+                height: 60px;
+                color: white;    
+                font-size: 10px;
+                padding: 5px;
+            }
+            
+            a {
+               color: white;
+            }
+                
+            a:hover {
+                color: white;  
+            }
+            
+            .container {
+            background-image: url(img/background.jpg);
+            margin: auto;
+            background-size: cover;
+            
+                
+            }
+            .selected {
+                font-weight: bold;
+            }
+            
+            .header img {
+                height: 50px;
+                margin: auto;
+            }
+            
+            .title {
+                font-family: 'Spicy Rice', cursive; 
+                color: #471d74;
+                text-align: center;
+                padding-top: 20px;
+                font-size: 55px;
+            }
+            
+            .flavours {
+                padding: 20px;
+            }
+            
+            .flavours img {
+             height: 200px; 
+            }
+            
+            .products {
+                padding-bottom: 20px;
+                text-align: center;
+            }
+
+            
+            /* sm */
+            @media (min-width: 576px) {
+                
+            }
+            
+            /* md */
+            @media (min-width: 768px) {
+                a {
+                    margin-right: 40px;
+                    font-size: 12px;
+                }
+            }
+            
+            /* lg */
+            @media (min-width: 992px) {
+                a {
+                    margin-right: 80px;
+                }      
+                .products {
+                    padding-left: 30px;
+                    padding-right: 30px
+                }
+            }
+            
+            /* xl */
+            @media (min-width: 1200px) {
+                a {
+                    margin-right: 100px;
+                }
+                                .products {
+                    padding-left: 110px;
+                    padding-right: 110px
+                }    
+            }
+                
+        </style>
+    </head>
+    
+    <body>
+    
+        <div class="container">
+        
+            <div class='background'>
+                <div class="row">
+                    <div class="header col-12"> 
+                        <a class="col-4"><img src="img/logo.png"></a>
+                        <a class="selected col-2">Home/About</a>
+                        <a class="col-2" href="Products.html">Products</a>
+                        <a class="col-2" href="Factory.html">Factory</a>
+                        <a class="col-2" href="Tickets.html">Golden Tickets</a>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="products row">
+                <div class="title col-12">Our Products</div>
+                <div class="flavours col 12 col-lg-6"><img src="img/blue.jpg"></div>
+                <div class="flavours col 12 col-lg-6"><img src="img/red.jpg"></div>
+                <div class="flavours col 12 col-lg-6"><img src="img/orange.jpg"></div>
+                <div class="flavours col 12 col-lg-6"><img src="img/brown.jpg"></div>
+                
+            </div>
+        
+        </div>
+    
+    </body>
 
 
 </html>
