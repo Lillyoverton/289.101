@@ -2,5 +2,186 @@
 
 <html>
 
+    <head>  
+        <title></title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />     
+        <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <style>
+            
+            .header {
+                background-color: #471d74;
+                margin: auto;
+                text-align: center;
+                height: 60px;
+                color: white;    
+                font-size: 10px;
+                padding: 5px;
+            }
+            
+            a {
+               color: white;
+            }
+                
+            a:hover {
+                color: white;
+            }
+            
+            .selected {
+            font-weight: bold;
+            }
+
+            .header img {
+                height: 50px;
+                margin: auto;
+            }
+            
+            .title {
+                font-family: 'Spicy Rice', cursive; 
+                color: #471d74;
+                padding-top: 40px;
+                padding-left: 40px;
+                font-size: 55px;
+            }
+            
+            .top {
+                background-color: #ede1f8;
+                height: 440px;
+            }
+            
+            .description {
+                padding-top: 40px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            
+            .bottom {
+                background-image: url(img/goldenticket.jpg);
+                height: 440px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center
+            }
+            
+            .footer {
+                background-color: #471d74;
+                margin: auto;
+                text-align: center;
+                height: 60px;
+                color: white;    
+                padding: 15px;
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+            
+            .footer p {
+                font-size: 15px;
+            }
+            
+            .footer i {
+                font-size: 30px;
+            }
+            
+            /* sm */
+            @media (min-width: 576px) {
+                
+            }
+            
+            /* md */
+            @media (min-width: 768px) {
+                a {
+                    margin-right: 30px;
+                    font-size: 12px;
+                }
+                .title {
+                    padding-left: 70px;
+                    padding-right: 70px;
+                }
+                .description {
+                    padding-left: 70px;
+                    padding-right: 70px;
+                }
+                .footer {
+                    padding-left: 160px;
+                    padding-right: 160px;
+                }
+            }
+            
+            /* lg */
+            @media (min-width: 992px) {
+                a {
+                    margin-right: 80px;
+                }      
+                .top{
+                    height: 550px;
+                }
+                .bottom {
+                    height: 550px;
+                }
+                .title {
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
+                .description {
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
+                .footer {
+                    padding-left: 260px;
+                    padding-right: 260px;
+                }
+            }
+            
+            /* xl */
+            @media (min-width: 1200px) {
+                a {
+                    margin-right: 100px;
+                }
+                                .footer {
+                    padding-left: 340px;
+                    padding-right: 340px;
+                }
+            }
+                
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+        
+            <div class="row">
+                <div class="header col-12"> 
+                    <a class="col-4"><img src="img/logo.png"></a>
+                    <a class="col-2" href="index.html">Home/About</a>
+                    <a class="col-2" href="Products.html">Products</a>
+                    <a class="col-2" href="Factory.html">Factory</a>
+                    <a class="selected col-2">Golden Tickets</a>
+                </div>  
+            </div>
+            
+            <div class="row">
+                <div class="top col-12 col-lg-6">
+                    <div class="title">Win an Exclusive Factory Tour !</div>
+                    <div class="description">Simply buy any Wonka chocolate bar and open it up - there could be a golden ticket inside! There are only four tickets available worldwide, so get in quick.</div>
+                    <div class="description">Make sure to follow us on Facebook for ticket updates. </div>
+                </div>
+                <div class="bottom col-12 col-lg-6"></div>
+            </div>
+            
+             <div class="row">
+                <div class="footer row col-12">
+                    <p class="col-6">Connect with us:</p>
+                    <i class="col-2 fas fa-paper-plane"></i>
+                    <i class="col-2 fab fa-facebook"></i>
+                    <i class="col-2 fab fa-instagram"></i>
+                </div>  
+            </div>
+            
+        </div>    
+        
+    </body>
 
 </html>
